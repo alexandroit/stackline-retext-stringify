@@ -1,11 +1,5 @@
+
 node_modules/
-coverage/
-packages/retext/*.d.ts
-packages/retext-dutch/lib/*.d.ts
-packages/retext-english/lib/*.d.ts
-packages/retext-latin/lib/*.d.ts
-packages/retext-stringify/lib/*.d.ts
-/*.d.ts
-.DS_Store
-*.log
-yarn.lock
+artifact/
+.package-consumer/
+*.tgz

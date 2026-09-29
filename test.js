@@ -9,7 +9,9 @@ import {removePosition} from 'unist-util-remove-position'
 import {assert} from 'nlcst-test'
 import {u} from 'unist-builder'
 import {unified} from 'unified'
-import {retext} from 'retext'
+import parse from 'retext-english'
+import stringify from './index.js'
+const retext=unified().use(parse).use(stringify).freeze()
 
 const parsers = ['latin', 'english', 'dutch']
 
@@ -32,40 +34,6 @@ test('.parse', (t) => {
 
   t.end()
 })
-
-let index = -1
-while (++index < parsers.length) {
-  eachParser(parsers[index])
-}
-
-/** @param {string} name */
-function eachParser(name) {
-  test('retext-' + name, async (t) => {
-    t.plan(2)
-
-    const fp = './packages/retext-' + name + '/index.js'
-
-    /** @type {import('unified').Plugin<void[], string, Root>} */
-    // type-coverage:ignore-next-line
-    const plugin = (await import(fp)).default
-
-    const tree = unified().use(plugin).parse('Alfred')
-
-    t.doesNotThrow(() => {
-      assert(tree)
-    }, 'should parse to valid nlcst')
-
-    t.deepEqual(
-      removePosition(tree, true),
-      u('RootNode', [
-        u('ParagraphNode', [
-          u('SentenceNode', [u('WordNode', [u('TextNode', 'Alfred')])])
-        ])
-      ]),
-      'should give the corrent tree'
-    )
-  })
-}
 
 test('.stringify', (t) => {
   t.throws(

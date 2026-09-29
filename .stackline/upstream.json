@@ -1,0 +1,24 @@
+{
+  "upstream": "retext-stringify",
+  "fork": "@stackline/retext-stringify",
+  "repository": "alexandroit/stackline-retext-stringify",
+  "upstreamRepository": "retextjs/retext",
+  "upstreamVersion": "3.1.0",
+  "sourceCommit": "95fd8db44198fe306380d5a5f1f2df17bb290a4f",
+  "upstreamIntegrity": "sha512-767TLOaoXFXyOnjx/EggXlb37ZD2u4P1n0GJqVdpipqACsQP+20W+BNpMYrlJkq7hxffnFk+jc6mAK9qrbuB8w==",
+  "status": "source-ready",
+  "head": "e719bf49e69ef274a3b544431a9726c931f93761",
+  "sourceSelection": "package.json version matched in upstream history; runtime files require comparison",
+  "sourceEvidence": "All published runtime JavaScript bytes match this upstream history commit; npm has no gitHead.",
+  "files": {
+    "index.js": "bee6fdde8562f7fee690cd3934cdf9668869464621dc4461f1d052d347b9b2b8",
+    "lib/index.js": "9af50ad76a1bf268b01ad65cfa3c1209bbe531e3705fb2536f206ce31f6f63fa",
+    "package.json": "54d353d93f122d62bce24de72df2def13fde424377fca9aee377d326d74f8015",
+    "readme.md": "d586a1ff44dbeb22d12d50732216edcf20eae5ec43459ff830825a61387be80b",
+    "index.d.ts": "c3c3ddd4b9990f8029e0c851cf76480bb7fe2f0d150e74a4ec49fb35a9bf1baa",
+    "lib/index.d.ts": "5e83d7fbd9463282295d7598826327e444df6a5d4e614f760f0dc4203523306d"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
