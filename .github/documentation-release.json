@@ -4,7 +4,7 @@
     {
       "name": "@stackline/retext-stringify",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -30,8 +30,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/retext-stringify/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/retext-stringify/-/retext-stringify-1.0.0.tgz",
       "baselineIntegrity": "sha512-OzH1hCB4VKo4eKg7K8BR3e1wXyu2sfQmo6wfTBr73vosqAEq7CYr7b3bXAhPwWo+mJVZNUnpOk26BwDsOZJ95g==",
-      "expectedSha512": "f39857248425167f0d58d2ed84b320ce749b2c2995a3af0d268f3565a1da547da194209995459ab2de565d161b3f6a25a7ad55fb39550c04c3a36ee28c00f564",
-      "tag": "docs-stackline-retext-stringify-v1.0.1"
+      "expectedSha512": "90c1b70f801edb0602d99f8596602dde6985d7fde219e0eb816b32c5f270d88a3a29644afef64be391f73817a70da87c29c575d2e21e878cf82e1c438f60a48d",
+      "tag": "docs-stackline-retext-stringify-v1.0.2"
     }
   ]
 }

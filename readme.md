@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/retext-stringify.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/retext-stringify)
 [![license](https://img.shields.io/npm/l/@stackline/retext-stringify.svg?style=flat-square)](https://github.com/alexandroit/stackline-retext-stringify)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-retext-stringify-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-retext-stringify)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-retext-stringify)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/retext-stringify/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/retext-stringify/)** | **[npm](https://www.npmjs.com/package/@stackline/retext-stringify)** | **[Issues](https://github.com/alexandroit/stackline-retext-stringify/issues)** | **[Repository](https://github.com/alexandroit/stackline-retext-stringify)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/retext-stringify@1.0.1` |
+| Package | `@stackline/retext-stringify@1.0.2` |
 | API target | `retext-stringify@3.1.0` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
