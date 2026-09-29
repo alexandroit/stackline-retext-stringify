@@ -1,28 +1,52 @@
 # @stackline/retext-stringify
 
-Independent maintenance fork of `retext-stringify@3.1.0`, preserving its API and published type declarations.
+> retext plugin to serialize prose.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/retext-stringify.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/retext-stringify)
+[![license](https://img.shields.io/npm/l/@stackline/retext-stringify.svg?style=flat-square)](https://github.com/alexandroit/stackline-retext-stringify)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-retext-stringify-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-retext-stringify)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/retext-stringify/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/retext-stringify/)** | **[npm](https://www.npmjs.com/package/@stackline/retext-stringify)** | **[Issues](https://github.com/alexandroit/stackline-retext-stringify/issues)** | **[Repository](https://github.com/alexandroit/stackline-retext-stringify)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/retext-stringify` is the Stackline-maintained distribution of `retext-stringify@3.1.0`. It is an independent continuation of [retext-stringify](https://github.com/retextjs/retext); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/retext-stringify@1.0.1` |
+| API target | `retext-stringify@3.1.0` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `unified, @types/nlcst, nlcst-to-string` |
+
+## Installation
+
+```bash
 npm install @stackline/retext-stringify
-# Keep existing imports:
-npm install retext-stringify@npm:@stackline/retext-stringify@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-retext-stringify/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install retext-stringify@npm:@stackline/retext-stringify
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# retext-stringify
+### retext-stringify
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [**retext**][retext] plugin to serialize natural language.
 [Compiler][] for [**unified**][unified].
@@ -32,7 +56,7 @@ Serializes [**nlcst**][nlcst] syntax trees.
 
 Support this effort and give back by sponsoring on [OpenCollective][collective]!
 
-<!--lint ignore no-html-->
+
 
 <table>
 <tr valign="middle">
@@ -46,7 +70,7 @@ Support this effort and give back by sponsoring on [OpenCollective][collective]!
 </td>
 <td width="20%" align="center" colspan="2">
   <a href="https://www.netlify.com">Netlify</a><br><br>
-  <!--OC has a sharper image-->
+  
   <a href="https://www.netlify.com"><img src="https://images.opencollective.com/netlify/4087de2/logo/256.png" width="128"></a>
 </td>
 <td width="10%" align="center">
@@ -83,7 +107,7 @@ Node 12+ is needed to use it and it must be `import`ed instead of `require`d.
 [npm][]:
 
 ```sh
-npm install retext-stringify
+npm install @stackline/retext-stringify
 ```
 
 ## Use
@@ -92,7 +116,7 @@ npm install retext-stringify
 import {unified} from 'unified'
 import {stream} from 'unified-stream'
 import retextEnglish from 'retext-english'
-import retextStringify from 'retext-stringify'
+import retextStringify from '@stackline/retext-stringify'
 import retextEmoji from 'retext-emoji'
 
 const processor = unified()
@@ -131,7 +155,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/retextjs/retext/workflows/main/badge.svg
 
@@ -184,3 +208,22 @@ abide by its terms.
 [retext]: https://github.com/retextjs/retext
 
 [nlcst]: https://github.com/syntax-tree/nlcst
+
+## Credits and original authors
+
+- Original project: [retext-stringify](https://github.com/retextjs/retext).
+- Titus Wormer.
+- Copyright (c) 2014 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
