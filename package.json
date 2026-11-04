@@ -78,7 +78,7 @@
   "devDependencies": {
     "nlcst-test": "^3.0.0",
     "tape": "5.10.2",
-    "unist-builder": "^3.0.0",
+    "unist-builder": "^4.0.0",
     "unist-util-remove-position": "^4.0.0",
     "retext-english": "^4.0.0",
     "unified": "^10.0.0",
