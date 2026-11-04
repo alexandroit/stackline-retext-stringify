@@ -76,7 +76,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "nlcst-test": "^3.0.0",
+    "nlcst-test": "^4.0.0",
     "tape": "5.10.2",
     "unist-builder": "^3.0.0",
     "unist-util-remove-position": "^4.0.0",
