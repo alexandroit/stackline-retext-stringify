@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/retext-stringify/)** | **[npm](https://www.npmjs.com/package/@stackline/retext-stringify)** | **[Issues](https://github.com/alexandroit/stackline-retext-stringify/issues)** | **[Repository](https://github.com/alexandroit/stackline-retext-stringify)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/retext-stringify@1.0.2` |
+| Package | `@stackline/retext-stringify@1.0.3` |
 | API target | `retext-stringify@3.1.0` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
